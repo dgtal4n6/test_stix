@@ -1,0 +1,54 @@
+{
+    "id": "bundle--a625c45a-c49c-488c-a9c0-8ff9529ae1ad",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "created": "2021-03-02T19:34:00.000Z",
+            "id": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "identity_class": "system",
+            "modified": "2021-03-02T19:34:00.000Z",
+            "name": "carbonblack",
+            "type": "identity"
+        },
+        {
+            "created": "2021-03-02T19:34:00.000Z",
+            "created_by_ref": "identity--8899d562-2667-4532-8e19-b4eca6c959bd",
+            "first_observed": "2021-03-02T19:34:00.000Z",
+            "id": "observed-data--626a6ca7-1145-4a66-b695-e1fe8090c319",
+            "last_observed": "2021-03-02T19:34:00.000Z",
+            "modified": "2021-03-02T19:34:00.000Z",
+            "number_observed": 1,
+            "objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.23",
+					"resolves_to_refs": [
+						"1"
+					]
+				},
+				"1": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+					},
+				"2": {
+					"type": "file",
+					"name": "img05960602020-jpg.scr",
+					"hashes": {
+						"MD5": "c9ec0d9ff44f445ce5614cc87398b38d"
+					}
+				},
+				"3": {
+					"type": "directory",
+					"path": "c:\\users\\bill\\project_files"
+				},
+				"4": {
+					"account_login": "bill",
+					"type": "user-account",
+					"user_id": "bill"
+				 }
+            },
+            "type": "observed-data"
+        }		
+    ],
+    "type": "bundle"
+}

