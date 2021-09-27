@@ -49,13 +49,6 @@
 					"type": "mac-addr",
 					"value": "00:00:00:00:00:00"
 				},
-				"5": {
-					"type": "artifact",
-					"payload_bin": "==",
-					"hashes": {
-						"SHA-256": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
-					}
-				},
 				"6": {
 					"type": "file",
 					"name": "IMG159131.jpg.js.zip",
